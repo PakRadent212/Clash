@@ -1,0 +1,17 @@
+proxies:
+  - name: NusaNusa_vmess_ws_tls
+    server: www.udemy.com
+    port: 443
+    type: vmess
+    uuid: 9e37aa18-60f3-43d4-8a6e-be92ed055e06
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ns-id01.ipv2ray.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: ns-id01.ipv2ray.xyz
+    udp: true
